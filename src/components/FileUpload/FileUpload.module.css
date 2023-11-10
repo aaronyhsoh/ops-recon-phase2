@@ -1,0 +1,99 @@
+.fileUploadWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fileUpload {
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    font-size: large;
+    color: #D7D7D7;
+    height: 180px;
+    width: 180px;
+    padding: 2px;
+    border: 1px #D7D7D7 solid;
+}
+
+.title {
+    margin: 8px 0;
+    color: black;
+}
+
+.date {
+    margin-top: 10px;
+}
+
+.wrong{
+    margin-top: 10px;
+    color:red;
+}
+
+.fileUploadInput {
+    display: none;
+}
+
+.fileUploadArea {
+    height: 100%;
+    width: 100%;
+}
+
+.uploadedFile {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.uploadedFile > p {
+    margin: 0;
+}
+
+.fileUploadIcon {
+    width: 20%;
+    height: 20%;
+    margin-bottom: 14px;
+}
+
+.browseButton {
+    cursor: pointer;
+}
+
+.browseButton:hover {
+    text-decoration: underline;
+}
+
+.deleteButton {
+    position: absolute;
+    cursor: pointer;
+    width: 16px;
+    top: 0;
+    right: 10px;
+    transition: color 150ms;
+}
+
+.deleteButton:hover {
+    color: #989898;
+}
+
+.deleteButton:active {
+    color: #5c5c5c;
+}
+
+.fileFormatIcon {
+    width: 40%;
+    height: 40%;
+    user-select: none;
+}
+
+.wrongFileType{
+    margin-top: 5px;
+    color: orange;
+}
+
+.warning {
+    border-color:orange;
+}

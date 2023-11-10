@@ -1,0 +1,12 @@
+.fileUploadApp {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 12px;
+}
+
+.buttonWrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 24px;
+    margin-right: 8px;
+}

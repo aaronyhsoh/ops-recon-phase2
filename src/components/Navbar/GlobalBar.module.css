@@ -1,0 +1,7 @@
+.globalBar {
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+    margin: 0;
+    margin-top: 6px;
+}

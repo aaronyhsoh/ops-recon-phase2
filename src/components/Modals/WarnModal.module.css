@@ -1,0 +1,7 @@
+.icon{
+    background-image: url(../../assets/Modal/warning.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}

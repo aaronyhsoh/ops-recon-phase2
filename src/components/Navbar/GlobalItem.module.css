@@ -1,0 +1,29 @@
+:root {
+    --background-flag: #F04438;
+    --text-flag: #FFFFFF;
+    --text-font-size: 0.5rem;
+}
+
+.globalItem {
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+.globalItem img {
+    width: 24px;
+}
+
+.flagCount {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: var(--background-flag);
+    color: var(--text-flag);
+    font-size: var(--text-font-size);
+    min-width: 10px;
+    width: auto;
+    padding: 1.5px;
+    text-align: center;
+    border-radius: 1000px;
+}

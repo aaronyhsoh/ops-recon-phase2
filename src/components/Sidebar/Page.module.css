@@ -1,0 +1,16 @@
+.page {
+    padding: 12px 30px;
+    cursor: pointer;
+}
+
+.link {
+    color: var(--color-sidebar);
+    text-decoration: none;
+    transition: color 200ms;
+}
+
+.active {
+    background-color: var(--background-primary);
+    font-weight: bold;
+    transition: background-color 200ms, font-weight 50ms;
+}

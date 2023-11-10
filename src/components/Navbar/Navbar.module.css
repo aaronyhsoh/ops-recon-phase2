@@ -1,0 +1,26 @@
+:root {
+    --color-navbar: #FFFFFF;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--foreground-primary);
+    padding: 6px 16px;
+}
+
+.logo {
+    width: 150px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 36px;
+}

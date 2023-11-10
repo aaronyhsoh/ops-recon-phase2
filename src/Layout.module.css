@@ -1,0 +1,21 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.sidebar {
+    min-width: 200px;
+}
+
+.main {
+    flex-grow: 1;
+
+    background-color: var(--background-primary);
+}

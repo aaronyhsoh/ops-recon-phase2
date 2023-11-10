@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.marginRight{
+    flex-grow:1;
+}
+
+.inputTitle {
+    padding: 10px 0px;
+    text-align: left;
+}
+
+.long{
+    width:80%;
+    font-size:20px;
+    padding: 5px 10px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    text-overflow: ellipsis;
+}
+
+.note{
+    color: red;
+}
+
+.updated{
+    color:lightgreen;
+    text-align: end;
+    margin-right:15px;
+}

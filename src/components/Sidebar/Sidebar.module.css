@@ -1,0 +1,10 @@
+:root {
+    --color-sidebar: #545454;
+}
+
+.sidebar {
+    color: var(--color-sidebar);
+    list-style-type: none;
+    padding: 0;
+    margin: 8px 0;
+}

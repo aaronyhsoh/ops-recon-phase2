@@ -1,0 +1,7 @@
+.icon{
+    background-image: url(../../assets/Modal/error.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}

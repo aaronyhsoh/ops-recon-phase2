@@ -1,0 +1,39 @@
+:root {
+    --color-user: #FFFFFF;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+
+    color: var(--color-user);
+
+    margin-right: 16px;
+
+    cursor: pointer;
+}
+
+.userIconWrapper {
+    height: 30px;
+    width: 30px;
+    background-color: var(--background-primary);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    border-radius: 1000px;
+    margin-top: 2px;
+}
+
+.userName {
+    flex-grow: 1;
+    margin-left: 2px;
+    margin-right: 16px;
+}
+
+.userArrow {
+    rotate: 90deg;
+    margin-top: 5px;
+}

@@ -1,0 +1,96 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(220, 220, 220, 0.5);
+}
+
+.modalcontainer {
+    width: 300px;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-color: inherit;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    font-size: large;
+    word-break: break-word;
+
+    position:fixed;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+}
+
+.modalheader {
+    background-color: #FFFFFF;
+    text-align: left;
+    padding: 15px 20px;
+}
+
+.modalcontent {
+    padding: 10px 20px 0px 20px;
+    flex-grow: 1;
+    background-color: #F0F0F7;
+}
+
+.modalfooter {
+    padding: 0 20px 20px 20px;
+    background-color: #F0F0F7;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.modalfooter > * {
+    margin-left: 15px;
+}
+
+.modalfooter > *:first-child {
+    margin-left: 0;
+}
+
+/* Common button css properties */
+.modalconfirmbutton, .modalquitbutton {
+    border: none;
+    background-color: inherit;
+    user-select: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 150ms;
+    font-size: 1.05rem;
+}
+
+.modalconfirmbutton {
+    background-color: #0F6EF0;
+    color: #FFFFFF;
+}
+
+.modalconfirmbutton:hover {
+    background-color: #0051c3;
+}
+
+.modalconfirmbutton:active {
+    background-color: #00429e;
+    color: #f2f2f2;
+}
+
+.modalquitbutton {
+    background-color: #AFAFAF;
+    color: #404040;
+}
+
+.modalquitbutton:hover {
+    background-color: #999999;
+}
+
+.modalquitbutton:active {
+    background-color: #8f8f8f;
+    color: #424242;
+}

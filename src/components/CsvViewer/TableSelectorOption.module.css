@@ -1,0 +1,22 @@
+.optionContainer {
+    border-right: 2px solid grey;
+    padding: 2px 5px;
+    user-select: none;
+}
+
+.optionContainer:last-child {
+    border-right: none;
+}
+
+.optionText {
+    color: black;
+    cursor: pointer;
+}
+
+.optionText:hover {
+    color: grey;
+}
+
+.selected {
+    font-weight: bolder;
+}

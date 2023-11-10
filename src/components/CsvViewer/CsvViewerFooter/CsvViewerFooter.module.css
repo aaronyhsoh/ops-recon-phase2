@@ -1,0 +1,19 @@
+.viewerfooter {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    border: none;
+    background-color: #0F6EF0;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 3px 30px;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.button:hover {
+    color: #000000;
+}

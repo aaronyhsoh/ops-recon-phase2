@@ -1,0 +1,23 @@
+.flex{
+    display:flex;
+    gap: 8px;
+}
+
+.highlightError {
+    border-radius: 7px;
+    background-color: rgb(255, 157, 157);
+    color: white !important;
+  }
+  
+  
+.highlightPresent {
+    border-radius: 7px;
+    background-color: rgb(98, 199, 98);
+    color: white !important;
+}
+
+.highlightAbsent {
+    border-radius: 7px;
+    background-color: rgb(197, 199, 98); /*add custom color */
+    color: white !important;
+}
